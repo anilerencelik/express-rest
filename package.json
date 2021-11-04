@@ -1,0 +1,23 @@
+{
+  "name": "restapi",
+  "version": "0.2.0",
+  "description": "Rest Api for Uzders",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_PATH=src nodemon src/index.js --exec babel-node"
+  },
+  "author": "Anıl Eren Çelik",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-jwt-middleware": "^1.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1"
+  }
+}
